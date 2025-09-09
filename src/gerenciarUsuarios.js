@@ -7,3 +7,8 @@ function retornaUsuarios() {
 function adicionarNovoUsuario(nome) {
     usuarios.push(nome);
 }
+
+module.exports = {
+    retornaUsuarios,
+    adicionarNovoUsuario
+}
